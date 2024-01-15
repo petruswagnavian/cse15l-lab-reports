@@ -4,6 +4,10 @@
 - The working directory when this command was run was: /home/lecture1/messages
 - The command "cd" without any arguments changes the current working directory to the home directory. This is the same function as the command "cd ~". So the output does nothing but change the current working directory to: /home. If the current working directory when the command was run already was /home, then the command would not do anything.
 - The output is not an error.
+1b. cd
+
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/e6dad26e-b987-4683-b042-28b5e9dbaefe)
+- The working directory when this command was run was /home/lecture1
 2. ls
 - 
 3. cat
