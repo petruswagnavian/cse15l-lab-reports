@@ -12,6 +12,14 @@
 - The command "cd messages/" changes the current working directory to the given path, which is to: messages/. "messages" is a directory, or folder, and since it was the argument for the command "cd" that was run, the current working directory changed to that path.
 - The output is not an error.
 
+1c. cd el.txt (path to a file)
+
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/59480c95-b777-418f-9623-d854b6fb8ac1)
+- The working directory when this command was run was: /home/lecture1/messages
+- The command "cd el.txt" results in an error, and nothing happens. The argument specified for the command was "el.txt" which is a file.
+- The output is an error because the command "cd" in general can only be used for changing to a directory. "cd" stands for "Change Directory". So the path that is to be specified as an argument in the command should be a directory for the command to be used properly.
+
+
 2. ls
 - 
 3. cat
