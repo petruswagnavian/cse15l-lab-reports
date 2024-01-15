@@ -14,7 +14,7 @@
 
 1c. cd el.txt (path to a file)
 
-![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/59480c95-b777-418f-9623-d854b6fb8ac1)
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/d8dfe400-c856-4875-8b66-9e0391fd8bd6)
 - The working directory when this command was run was: /home/lecture1/messages
 - The command "cd el.txt" results in an error, and nothing happens. The argument specified for the command was "el.txt" which is a file.
 - The output is an error because the command "cd" in general can only be used for changing to a directory. "cd" stands for "Change Directory". So the path that is to be specified as an argument in the command should be a directory for the command to be used properly.
