@@ -51,3 +51,10 @@
 
 - The output is not an error. To return back to using commands, press CTRL+C.
 
+3b. cat messages/ (path to a directory)
+
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/6b08b2a4-9fb7-41f7-9298-09ac89a39ba4)
+- The working directory when this command was run was: /home/lecture1
+- The command "cat messages/" is supposed to print the contents of the argument specified. However, the argument specified is "messages/", which is a directory. The argument specified for "cat" commands should be files, not directories.
+- The output is an error because the command "cat" should be used with files, not directories. "messages/" is a directory.
+
