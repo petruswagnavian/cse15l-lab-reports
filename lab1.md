@@ -23,7 +23,15 @@
 
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/ecfa934d-cb72-47e2-8edd-401fa76ce3bc)
 - The working directory when this command was run was: /home/lecture1
-- The command "ls" without any arguments simply lists the files and folders in the path that the current working directory currently is. In this case, since the current working directory is /home/lecture1, then the command lists the files and folders in lecture1, which is "Hello.class", "Hello.java", "messages", and "README".
+- The command "ls" without any arguments simply lists the files and folders in the path that the current working directory currently is. In this case, since the current working directory is /home/lecture1, then the command lists the files and folders in lecture1, which is "Hello.class", "Hello.java", "messages", and "README". The current working directory is not changed.
 - The output is not an error.
+
+2b. ls messages/ (path to directory)
+
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/5199b5ef-a9d9-4313-b68f-6a6729e1b834)
+- The working directory when this command was run was: /home/lecture1
+- The command "ls messages/" lists the files and folders in the given path, which is the directory "messages". So, the command prints "el.txt", "en-us.txt", "es-mx.txt", and "zh-cn.txt", because these are all the files and folders int he directory "messages". The current working directory is not changed.
+- The output is not an error. 
+
 
 3. cat
