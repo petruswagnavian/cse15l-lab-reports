@@ -1,3 +1,9 @@
+Peter Wang. CSE 15L. Lab Report 1.
+---
+On the three basic filesystem commands we learned. These are: cd, ls, cat
+
+---
+
 1a. cd (no arguments)
 
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/c8158b8c-6435-4349-ba9f-ff113661e761)
