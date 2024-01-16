@@ -38,8 +38,16 @@
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/eeb04a2c-eb4a-4c85-8ac9-fd25c2570528)
 - The working directory when this command was run was: /home/lecture1
 - The command "ls Hello.class" lists the file that was specified as the argument, if it exists. In this case, the command prints "Hello.class", which is just the file that was specified as the given path.
-- Although using "ls" with a file as an argument isn't exactly helpful at all in these cases, the output is still not technically an error.
+- Although using "ls" with a file as an argument isn't exactly helpful at all in these cases, the output is still technically not an error.
 
+3a. cat (no arguments)
 
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/e01996fb-4df3-4249-8b75-44460d4c6177)
+- The working directory when this command was run was: /home/lecture1
+- The command "cat" without any arguments doesn't print anything, but instead prompts the user to type something, and then prints what the user types. For example:
 
-3. cat
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/5d87d591-8e04-4dee-88e2-7d9c7422bd50)
+- Whatever is typed appears twice because the first line displays what the user typed, and the second line displays because the terminal prints what the user typed. So technically it was only "printed" by the terminal once.
+
+- The output is not an error. To return back to using commands, press CTRL+C.
+
