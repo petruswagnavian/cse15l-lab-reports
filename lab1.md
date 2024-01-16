@@ -26,6 +26,8 @@ On the three basic filesystem commands we learned. These are: cd, ls, cat
 - The command "cd el.txt" results in an error, and nothing happens. The argument specified for the command was "el.txt" which is a file.
 - The output is an error because the command "cd" in general can only be used for changing to a directory. "cd" stands for "Change Directory". So the path that is to be specified as an argument in the command should be a directory for the command to be used properly.
 
+---
+
 2a. ls (no arguments)
 
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/ecfa934d-cb72-47e2-8edd-401fa76ce3bc)
@@ -46,6 +48,8 @@ On the three basic filesystem commands we learned. These are: cd, ls, cat
 - The working directory when this command was run was: /home/lecture1
 - The command "ls Hello.class" lists the file that was specified as the argument, if it exists. In this case, the command prints "Hello.class", which is just the file that was specified as the given path.
 - Although using "ls" with a file as an argument isn't exactly helpful at all in these cases, the output is still technically not an error.
+
+---
 
 3a. cat (no arguments)
 
