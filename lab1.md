@@ -58,3 +58,11 @@
 - The command "cat messages/" is supposed to print the contents of the argument specified. However, the argument specified is "messages/", which is a directory. The argument specified for "cat" commands should be files, not directories.
 - The output is an error because the command "cat" should be used with files, not directories. "messages/" is a directory.
 
+3c. cat Hello.java (path to a file)
+
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/c9ce1e7e-2dc9-46b6-88eb-ece5efa04523)
+- The working directory when this command was run was /home/lecture1
+- The command "cat Hello.java" prints the contents of the argument specified, which is "Hello.java". "Hello.java" is a valid file, so the code inside the file "Hello.java" is printed.
+- The output is not an error.
+
+
