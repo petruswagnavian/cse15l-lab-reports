@@ -31,7 +31,15 @@
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/5199b5ef-a9d9-4313-b68f-6a6729e1b834)
 - The working directory when this command was run was: /home/lecture1
 - The command "ls messages/" lists the files and folders in the given path, which is the directory "messages". So, the command prints "el.txt", "en-us.txt", "es-mx.txt", and "zh-cn.txt", because these are all the files and folders int he directory "messages". The current working directory is not changed.
-- The output is not an error. 
+- The output is not an error.
+
+2c. ls Hello.class (path to a file)
+
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/eeb04a2c-eb4a-4c85-8ac9-fd25c2570528)
+- The working directory when this command was run was: /home/lecture1
+- The command "ls Hello.class" lists the file that was specified as the argument, if it exists. In this case, the command prints "Hello.class", which is just the file that was specified as the given path.
+- Although using "ls" with a file as an argument isn't exactly helpful at all in these cases, the output is still not technically an error.
+
 
 
 3. cat
