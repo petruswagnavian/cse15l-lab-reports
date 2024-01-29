@@ -22,17 +22,17 @@ On the three basic filesystem commands we learned. These are: ```cd```, ```ls```
 1c. ```cd el.txt``` (path to a file)
 
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/d8dfe400-c856-4875-8b66-9e0391fd8bd6)
-- The working directory when this command was run was: /home/lecture1/messages
-- The command "cd el.txt" results in an error, and nothing happens. The argument specified for the command was "el.txt" which is a file.
-- The output is an error because the command "cd" in general can only be used for changing to a directory. "cd" stands for "Change Directory". So the path that is to be specified as an argument in the command should be a directory for the command to be used properly.
+- The working directory when this command was run was ```/home/lecture1/messages```
+- The command ```cd el.txt``` results in an error, and nothing happens. The argument specified for the command was ```el.txt```, which is a file.
+- The output is an error because the command ```cd``` in general can only be used for changing to a directory. ```cd``` stands for "Change Directory". So the path that is to be specified as an argument in the command should be a directory for the command to be used properly.
 
 ---
 
-2a. ls (no arguments)
+2a. ```ls``` (no arguments)
 
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/ecfa934d-cb72-47e2-8edd-401fa76ce3bc)
-- The working directory when this command was run was: /home/lecture1
-- The command "ls" without any arguments simply lists the files and folders in the path that the current working directory currently is. In this case, since the current working directory is /home/lecture1, then the command lists the files and folders in lecture1, which is "Hello.class", "Hello.java", "messages", and "README". The current working directory is not changed.
+- The working directory when this command was run was: ```/home/lecture1```
+- The command ```ls``` without any arguments simply lists the files and folders in the path that the current working directory currently is. In this case, since the current working directory is /home/lecture1, then the command lists the files and folders in lecture1, which is "Hello.class", "Hello.java", "messages", and "README". The current working directory is not changed.
 - The output is not an error.
 
 2b. ls messages/ (path to directory)
