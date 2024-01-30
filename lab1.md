@@ -60,7 +60,7 @@ On the three basic filesystem commands we learned. These are: ```cd```, ```ls```
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/5d87d591-8e04-4dee-88e2-7d9c7422bd50)
 - Whatever is typed appears twice because the first line displays what the user typed, and the second line displays because the terminal prints what the user typed. So technically it was only "printed" by the terminal once.
 
-- The output is not an error. To return back to using commands, press CTRL+C.
+- The output is not an error. To return back to using commands, press ```CTRL+C```.
 
 3b. ```cat messages/``` (path to a directory)
 
