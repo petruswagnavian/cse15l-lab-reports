@@ -54,26 +54,26 @@ On the three basic filesystem commands we learned. These are: ```cd```, ```ls```
 3a. ```cat``` (no arguments)
 
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/e01996fb-4df3-4249-8b75-44460d4c6177)
-- The working directory when this command was run was: /home/lecture1
-- The command "cat" without any arguments doesn't print anything, but instead prompts the user to type something, and then prints what the user types. For example:
+- The working directory when this command was run was ```/home/lecture1```
+- The command ```cat``` without any arguments doesn't print anything, but instead prompts the user to type something, and then prints what the user types. For example:
 
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/5d87d591-8e04-4dee-88e2-7d9c7422bd50)
 - Whatever is typed appears twice because the first line displays what the user typed, and the second line displays because the terminal prints what the user typed. So technically it was only "printed" by the terminal once.
 
 - The output is not an error. To return back to using commands, press CTRL+C.
 
-3b. cat messages/ (path to a directory)
+3b. ```cat messages/``` (path to a directory)
 
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/6b08b2a4-9fb7-41f7-9298-09ac89a39ba4)
-- The working directory when this command was run was: /home/lecture1
-- The command "cat messages/" is supposed to print the contents of the argument specified. However, the argument specified is "messages/", which is a directory. The argument specified for "cat" commands should be files, not directories.
-- The output is an error because the command "cat" should be used with files, not directories. "messages/" is a directory.
+- The working directory when this command was run was ```/home/lecture1```
+- The command ```cat messages/``` is supposed to print the contents of the argument specified. However, the argument specified is ```messages/```, which is a directory. The argument specified for ```cat``` commands should be files, not directories.
+- The output is an error because the command ```cat``` should be used with files, not directories. ```messages/``` is a directory.
 
 3c. cat Hello.java (path to a file)
 
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/c9ce1e7e-2dc9-46b6-88eb-ece5efa04523)
-- The working directory when this command was run was /home/lecture1
-- The command "cat Hello.java" prints the contents of the argument specified, which is "Hello.java". "Hello.java" is a valid file, so the code inside the file "Hello.java" is printed.
+- The working directory when this command was run was ```/home/lecture1```
+- The command ```cat Hello.java``` prints the contents of the argument specified, which is ```Hello.java```. ```Hello.java``` is a valid file, so the code inside the file ```Hello.java``` is printed.
 - The output is not an error.
 
 
