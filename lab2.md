@@ -36,6 +36,7 @@ Here is the terminal interaction when I log into my `ieng6` account without bein
 
 Part 3
 
+I learned from lab in week 2 that I can create remote servers. Before, I thought it would be difficult to create servers or "websites", but when I looked at the Java code in my file I found it surprisingly simple. Even though I might not know exactly what everything does or means, I now know a proper way to code a server that can have some simple functions.
 
 
 
