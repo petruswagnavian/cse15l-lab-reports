@@ -11,8 +11,8 @@ Code for ```ChatServer.java```:
 
 1st example of using ```add-message```
 - Method ```Handler.handlerequest``` is called
-- The argument for `Handler.handlerequest` is `url` which is of type `URI` from `import java.net.URI`. It's value is `http://localhost:1629/add-message?s=romans&user=paul`. The fields in the class are `message` and `username`. The value of `message` is initialized as the String `""` and the value of `username` is intialized as the String `""`.
-- The values of `message` and `username` are updated in the method. The String array `parameters` is initialized with `url.getQuery().split("=")`, which means that `parameters` holds three elements: `s`, `romans&user`, and `paul`. The String array `middle` is initialized with `parameters[1].split("&")`, which means that The variable `message` is updated to hold 
+- The argument for `Handler.handlerequest` is `url` which is of type `URI` from `import java.net.URI`. It's value is `http://localhost:1629/add-message?s=romans&user=paul`. The fields in the class are `message`, `username`, and `messages`. The value of `message` is initialized as the String `""` and the value of `username` is intialized as the String `""`. The value of `messages` is initialized as an empty `ArrayList` with type a `<String>`.
+- The values of `message`, `username`, and `messages` are updated in the method. The String array `parameters` is initialized with `url.getQuery().split("=")`, which means that `parameters` holds three elements: `s`, `romans&user`, and `paul`. The String array `middle` is initialized with `parameters[1].split("&")`, which means that `middle` holds two elements: `romans` and `user`. The variable `message` is updated to hold the String at index 0 of `middle`, which is `romans`. The variable `username` is updated to hold the String at index 2 of `parameters`, which is `paul`. Finally, the ArrayList `messages` is updated by calling `.add` with `username: + ": " + message`, so now there is one element in `messages` that is `paul: romans`.
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/6841926e-ff31-493d-9fd1-eb95fbe41ad9)
 
 
