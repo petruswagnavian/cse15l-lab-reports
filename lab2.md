@@ -5,6 +5,7 @@ On Servers and SSH Keys.
 
 ---
 Part 1
+
 Code for ```ChatServer.java```:
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/6f07c722-7c75-4a4f-892a-2d53957d9efb)
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/e5379fd0-b5f2-4a82-b410-c2d2f53403a5)
