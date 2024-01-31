@@ -21,7 +21,9 @@ Code for ```ChatServer.java```:
 - The argument for `Handler.handlerequest` is `url` which is of type `URI` from `import java.net.URI`. It's value is `/add-message?s=justified%20by%20faith%20alone&user=martin%20luther`. The fields in the class are `message`, `username`, and `messages`. The value of `message` is initialized as the String `""` and the value of `username` is intialized as the String `""`. The value of `messages` is initialized as an empty `ArrayList` with type a `<String>`.
 - The values of `message`, `username`, and `messages` are updated in the method. The String array `parameters` is initialized with `url.getQuery().split("=")`, which means that `parameters` holds three elements: `s`, `justified by faith alone&user`, and `martin luther`. The String array `middle` is initialized with `parameters[1].split("&")`, which means that `middle` holds two elements: `justified by faith alone` and `user`. The variable `message` is updated to hold the String at index 0 of `middle`, which is `justified by faith alone`. The variable `username` is updated to hold the String at index 2 of `parameters`, which is `martin luther`. Finally, the ArrayList `messages` is updated by calling `.add` with `username: + ": " + message`, so now there is now two elements in `messages`. The first element `paul: romans` was added from the last call of this method, and the second element is added by this call, which is `martin luther: justified by faith alone`.
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/66047c9f-a04b-4a5b-813e-8008a7e2fbc8)
+
 ---
+
 Part 2
 
 The absolute path to the private key for my SSH key for logging into `ieng6` is `/c/Users/peter/.ssh/id.rsa`
@@ -34,12 +36,10 @@ The absolute path to the public key for my SSH key for logging into `ieng6` is `
 Here is the terminal interaction when I log into my `ieng6` account without being asked for a password.
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/00cd15ec-6f29-4db7-b64a-f00977fc1070)
 
+---
+
 Part 3
 
 I learned from lab in week 2 that I can create remote servers. Before, I thought it would be difficult to create servers or "websites", but when I looked at the Java code in my file I found it surprisingly simple. Even though I might not know exactly what everything does or means, I now know a proper way to code a server that can have some simple functions.
 
 
-
----
-
-1a.
