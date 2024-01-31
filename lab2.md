@@ -3,11 +3,11 @@ Peter Wang. CSE 15L. Lab Report 2.
 
 On Servers and SSH Keys.
 
-![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/a06d9aec-6462-464b-a250-fae35a2ae9b8)
-![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/bfd4721d-e507-4e73-8662-00349b0320ce)
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/5aced3f5-248a-4731-8e0a-7bfa12fe5aef)
 
-![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/37f7a46f-bd06-496d-b968-892b8ad5b90c)
-![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/3e29c34a-9105-4e18-b5c7-428eafaa86ed)
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/2ce8963c-caf0-4a93-ad2b-c934d1c5c0e5)
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/66c1b376-395d-41cd-b716-2f18ca1b2465)
+
 
 
 
