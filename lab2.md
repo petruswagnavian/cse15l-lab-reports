@@ -10,7 +10,7 @@ Code for ```ChatServer.java```:
 
 1st example of using ```add-message```
 - Method ```handlerequest``` is called
-- The argument for ```handlerequest``` is ```url``` which is of type ```URI``` from ```import.
+- The argument for ```handlerequest``` is ```url``` which is of type ```URI``` from ```import java.net.URI```. The fields in the class are ```message``` and ```username```. The value of ```message``` is the String ```"romans"``` and the value of ```username``` is the String ```"paul"```.
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/2ce8963c-caf0-4a93-ad2b-c934d1c5c0e5)
 
 2nd example of using ```add-message```
