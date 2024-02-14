@@ -113,3 +113,10 @@ chapter-8.txt
 chapter-9.txt
 preface.txt
 ```
+
+Example 2b: Using the command `ls |grep -v chapter` in the directory `911report` helps the user filter many files in a directory by excluding a specified key phrase `chapter`. This command lists all the files in `911report` that does **not** include `chapter`.
+```
+peter@Symere MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/911report (main)
+$ ls |grep -v chapter
+preface.txt
+```
