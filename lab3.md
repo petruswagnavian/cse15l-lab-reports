@@ -62,6 +62,7 @@ This issue is fixed after the code change because a template array is created to
 I choose `grep`!
 
 **Number 1**: `ls |grep`
+
 source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
 
 Example 1a: Using the command `ls |grep 2210` in the directory `/biomed` helps the user filter many files in a directory by searching for the specified key phrase `2210`. This command lists all the files in `/biomed` that have the characters `2210` in them.
@@ -94,6 +95,7 @@ $ ls |grep 511X
 ```
 
 **Number 2**: `ls |grep -v`
+
 source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
 
 Example 2a: Using the command `ls |grep -v 13` in the directory `/911report` helps the user filter many files in a directory by excluding a specified key phrase `13`. This command lists all the files in `/911report` that does **not** include `13`.
@@ -122,9 +124,10 @@ preface.txt
 ```
 
 **Number 3**: `ls |grep -e`
+
 source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
 
-Example 3a: Using the command `ls |grep -e txt` in the directory `/911report` helps the user filter and sort many files in a directory by only including a specified key phrase `txt`. This command lists all the files in `/911report` with the character `txt` and sorts them in alphabetical and numerical order.
+Example 3a: Using the command `ls |grep -e txt` in the directory `/911report` helps the user filter and sort many files in a directory by including a specified key phrase `txt`. This command lists all the files in `/911report` with the character `txt` and sorts them in alphabetical and numerical order.
 ```
 chapter-1.txt
 chapter-10.txt
@@ -144,7 +147,7 @@ chapter-8.txt
 chapter-9.txt
 preface.txt
 ```
-Example 3b: Using the command `ls |grep -e 1` in the directory `/911report` helps the user filter and sort many files in a directory by only including a specified key phrase `1`. This command lists all the files in `/911report` with the character `1` and sorts them in alphabetical and numerical order.
+Example 3b: Using the command `ls |grep -e 1` in the directory `/911report` helps the user filter and sort many files in a directory by including a specified key phrase `1`. This command lists all the files in `/911report` with the character `1` and sorts them in alphabetical and numerical order.
 ```
 peter@Symere MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/911report (main)
 $ ls |grep -e 1
@@ -157,4 +160,40 @@ chapter-13.2.txt
 chapter-13.3.txt
 chapter-13.4.txt
 chapter-13.5.txt
+```
+**Number 4**: `ls |grep -n`
+
+source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
+
+Example 4a: Using the command 'ls |grep -n chapter` in the directory `/911report` helps the user filter and number many files in a directory by including a specified key phrase 'chapter'. This command lists all the files in `/911report` with the characters `chapter` and numbers them according to how they would be numbered from a numerical and alphabetical sort. This also means that it can also be useful for finding out how many files there are that meet the filter. In this case, there are 16 files with `chapter` in them.
+```
+peter@Symere MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/911report (main)
+$ ls |grep -n chapter
+1:chapter-1.txt
+2:chapter-10.txt
+3:chapter-11.txt
+4:chapter-12.txt
+5:chapter-13.1.txt
+6:chapter-13.2.txt
+7:chapter-13.3.txt
+8:chapter-13.4.txt
+9:chapter-13.5.txt
+10:chapter-2.txt
+11:chapter-3.txt
+12:chapter-5.txt
+13:chapter-6.txt
+14:chapter-7.txt
+15:chapter-8.txt
+16:chapter-9.txt
+```
+
+Example 4b: Using the command 'ls |grep -n 13` in the directory `/911report` helps the user filter and number many files in a directory by including a specified key phrase '13'. This command lists all the files in `/911report` with the characters `13` and numbers them according to how they would be numbered from a numerical and alphabetical sort. This also means that it can also be useful for finding out how many files there are that meet the filter. In this case, there are 5 files with `13` in them.
+```
+peter@Symere MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/911report (main)
+$ ls |grep -n 13
+5:chapter-13.1.txt
+6:chapter-13.2.txt
+7:chapter-13.3.txt
+8:chapter-13.4.txt
+9:chapter-13.5.txt
 ```
