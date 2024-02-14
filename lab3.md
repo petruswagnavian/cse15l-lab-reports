@@ -32,7 +32,7 @@ Here is the symptom of running the two inputs as tests using JUnit. `testReverse
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/dea869cc-5fd5-4f96-86a7-261833dcd422)
 
 
-Before the fix, the bug exists in the code of the method `reverseInPlace`.
+Before the fix, the bug exists in the code of the method `reverseInPlace`:
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -40,6 +40,19 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-
+After the fix, the code is changed to look like this:
+```
+static void reverseInPlace(int[] arr) {
+    int[] temp = new int[arr.length];
+    for(int i = 0; i < arr.length; i++) {
+      temp[i] = arr[i];
+    }
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = temp[arr.length - i - 1];
+    }
+}
+```
+The issue was that the line `arr[i] = arr[arr.length - i - 1];` is updating the list `arr` while also using the same list as a template to access the elements to replace. So, if the input array was `{4, 5, 6}` then the first iteration would update the first element to make the list {6, 5, 6}, and then the third iteration would not be able to update the third element from `6` to `4` correctly because the `4` is not preserved.
+This issue is fixed after the code change because a template array is created to store the original elements of the `arr` list. So, the line `arr[i] = temp[arr.length - i - 1];` would be able to update each element in `arr` correctly, and no elements are replaced when they are still needed in a later iteration.
 
 
