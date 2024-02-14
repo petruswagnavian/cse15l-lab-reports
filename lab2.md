@@ -31,8 +31,9 @@ The absolute path to the private key for my SSH key for logging into `ieng6` is 
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/1c289a1f-473a-48a9-8654-5d34eac3093b)
 
 
-The absolute path to the public key for my SSH key for logging into `ieng6` is `/c/Users/peter/.ssh/id.rsa.pub`
-![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/8b23e1e0-4faa-4f93-8caa-91534d1527ed)
+The absolute path to the public key for my SSH key for logging into `ieng6` is `.ssh/authorized_keys` on `ieng6`.
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/e9dd5795-5fbd-414f-be6d-2a216d0e3f52)
+
 
 Here is the terminal interaction when I log into my `ieng6` account without being asked for a password.
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/00cd15ec-6f29-4db7-b64a-f00977fc1070)
