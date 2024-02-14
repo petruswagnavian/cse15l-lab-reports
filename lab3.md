@@ -96,7 +96,7 @@ $ ls |grep 511X
 2) `ls |grep -v`
 source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
 
-Example 2a: Using the command `ls |grep -v 13` in the directory `911report` helps the user filter many files in a directory by excluding a specified key phrase `13`. This command lists all the files in `911report` that does **not** include `13`.
+Example 2a: Using the command `ls |grep -v 13` in the directory `/911report` helps the user filter many files in a directory by excluding a specified key phrase `13`. This command lists all the files in `/911report` that does **not** include `13`.
 ```
 peter@Symere MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/911report (main)
 $ ls |grep -v 13
@@ -114,9 +114,34 @@ chapter-9.txt
 preface.txt
 ```
 
-Example 2b: Using the command `ls |grep -v chapter` in the directory `911report` helps the user filter many files in a directory by excluding a specified key phrase `chapter`. This command lists all the files in `911report` that does **not** include `chapter`.
+Example 2b: Using the command `ls |grep -v chapter` in the directory `/911report` helps the user filter many files in a directory by excluding a specified key phrase `chapter`. This command lists all the files in `/911report` that does **not** include `chapter`.
 ```
 peter@Symere MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/911report (main)
 $ ls |grep -v chapter
 preface.txt
 ```
+
+3) `ls |grep -e`
+source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
+
+Example 3a: Using the command `ls |grep -e txt` in the directory `/911report` helps the user filter and sort many files in a directory by only including a specified key phrase `txt`. This command lists all the files in `/911report` and sorts them in alphabetical and numerical order.
+```
+chapter-1.txt
+chapter-10.txt
+chapter-11.txt
+chapter-12.txt
+chapter-13.1.txt
+chapter-13.2.txt
+chapter-13.3.txt
+chapter-13.4.txt
+chapter-13.5.txt
+chapter-2.txt
+chapter-3.txt
+chapter-5.txt
+chapter-6.txt
+chapter-7.txt
+chapter-8.txt
+chapter-9.txt
+preface.txt
+```
+Example 3b: Using the command `ls |grep -e txt` in the directory `/911report` helps the user filter and sort many files in a directory by only including a specified key phrase `txt`. This command lists all the files in `/911report` and sorts them in alphabetical and numerical order.
