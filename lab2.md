@@ -32,6 +32,7 @@ The absolute path to the private key for my SSH key for logging into `ieng6` is 
 
 
 The absolute path to the public key for my SSH key for logging into `ieng6` is `.ssh/authorized_keys` on `ieng6`.
+
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/e9dd5795-5fbd-414f-be6d-2a216d0e3f52)
 
 
