@@ -27,6 +27,19 @@ public void testReverseInPlace2() {
     assertArrayEquals(new int[]{3}, input1);
 }
 ```
+
 Here is the symptom of running the two inputs as tests using JUnit. `testReverseInPlace2()` passes, `testReverseInPlace()` doesn't.
-![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/93815829-0976-4251-9e52-b2b93064181d)
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/dea869cc-5fd5-4f96-86a7-261833dcd422)
+
+
+Before the fix, the bug exists in the code of the method `reverseInPlace`.
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
+
+
 
