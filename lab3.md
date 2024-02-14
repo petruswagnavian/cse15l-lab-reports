@@ -62,6 +62,7 @@ This issue is fixed after the code change because a template array is created to
 I choose `grep`!
 
 1. `ls |grep`
+source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
 
 Example 1a: Using the command `ls |grep 2210` in the directory `/biomed` helps the user filter many files in a directory by searching for the specified key phrase `2210`. This command lists all the files in `/biomed` that have the characters `2210` in them.
 ```
@@ -93,6 +94,7 @@ $ ls |grep 511X
 ```
 
 2. `ls |grep -v`
+source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
 
 Example 2a: Using the command `ls |grep -v 13` in the directory `911report` helps the user filter many files in a directory by excluding a specified key phrase `13`. This command lists all the files in `911report` that does **not** include `13`.
 ```
