@@ -18,7 +18,7 @@ public void testReverseInPlace() {
 An input that doesn't induce a failure, yet still uses the same buggy `reverseInPlace` method would be:
 ```
 @Test
-public void testReverseInPlace() {
+public void testReverseInPlace2() {
     int[] input1 = {3};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{3}, input1);
