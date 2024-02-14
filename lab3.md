@@ -53,6 +53,7 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 The issue was that the line `arr[i] = arr[arr.length - i - 1];` is updating the list `arr` while also using the same list as a template to access the elements to replace. So, if the input array was `{4, 5, 6}` then the first iteration would update the first element to make the list {6, 5, 6}, and then the third iteration would not be able to update the third element from `6` to `4` correctly because the `4` is not preserved.
+
 This issue is fixed after the code change because a template array is created to store the original elements of the `arr` list. So, the line `arr[i] = temp[arr.length - i - 1];` would be able to update each element in `arr` correctly, and no elements are replaced when they are still needed in a later iteration.
 
 
