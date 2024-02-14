@@ -61,7 +61,7 @@ This issue is fixed after the code change because a template array is created to
 
 I choose `grep`!
 
-1) `ls |grep`
+Number 1: `ls |grep`
 source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
 
 Example 1a: Using the command `ls |grep 2210` in the directory `/biomed` helps the user filter many files in a directory by searching for the specified key phrase `2210`. This command lists all the files in `/biomed` that have the characters `2210` in them.
@@ -93,7 +93,7 @@ $ ls |grep 511X
 1476-511X-2-3.txt
 ```
 
-2) `ls |grep -v`
+Number 2: `ls |grep -v`
 source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
 
 Example 2a: Using the command `ls |grep -v 13` in the directory `/911report` helps the user filter many files in a directory by excluding a specified key phrase `13`. This command lists all the files in `/911report` that does **not** include `13`.
@@ -121,7 +121,7 @@ $ ls |grep -v chapter
 preface.txt
 ```
 
-3) `ls |grep -e`
+Number 3: `ls |grep -e`
 source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
 
 Example 3a: Using the command `ls |grep -e txt` in the directory `/911report` helps the user filter and sort many files in a directory by only including a specified key phrase `txt`. This command lists all the files in `/911report` and sorts them in alphabetical and numerical order.
