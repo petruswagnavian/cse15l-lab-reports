@@ -129,6 +129,8 @@ source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
 
 Example 3a: Using the command `ls |grep -e txt` in the directory `/911report` helps the user filter and sort many files in a directory by including a specified key phrase `txt`. This command lists all the files in `/911report` with the character `txt` and sorts them in alphabetical and numerical order.
 ```
+peter@Symere MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/911report (main)
+$ ls |grep -e txt
 chapter-1.txt
 chapter-10.txt
 chapter-11.txt
