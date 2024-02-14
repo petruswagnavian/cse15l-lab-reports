@@ -5,6 +5,9 @@ Bugs and Commands.
 
 ---
 Part 1
+
+One of the bugs in week 4's lab was in the `reverseInPlace` method in `ArrayExamples.java`. I chose this one.
+
 A failure-inducing input for the buggy `reverseInPlace` method would be:
 ```
 @Test 
@@ -24,3 +27,6 @@ public void testReverseInPlace2() {
     assertArrayEquals(new int[]{3}, input1);
 }
 ```
+Here is the symptom of running the two inputs as tests using JUnit. `testReverseInPlace2()` passes, `testReverseInPlace()` doesn't.
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/93815829-0976-4251-9e52-b2b93064181d)
+
