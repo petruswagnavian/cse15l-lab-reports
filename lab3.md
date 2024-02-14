@@ -4,7 +4,7 @@ Peter Wang. CSE 15L. Lab Report 3.
 Bugs and Commands.
 
 ---
-Part 1
+**Part 1**
 
 One of the bugs in week 4's lab was in the `reverseInPlace` method in `ArrayExamples.java`. I chose this one.
 
@@ -57,3 +57,28 @@ The issue was that the line `arr[i] = arr[arr.length - i - 1];` is updating the 
 This issue is fixed after the code change because a template array is created to store the original elements of the `arr` list. So, the line `arr[i] = temp[arr.length - i - 1];` would be able to update each element in `arr` correctly, and no elements are replaced when they are still needed in a later iteration.
 
 
+**Part 2**
+
+I choose `grep!`
+
+1. `ls |grep`
+
+Example 1a
+```
+peter@Symere MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/biomed (main)
+$ ls |grep 2210
+1471-2210-1-10.txt
+1471-2210-1-2.txt
+1471-2210-1-3.txt
+1471-2210-1-4.txt
+1471-2210-1-7.txt
+1471-2210-1-8.txt
+1471-2210-2-14.txt
+1471-2210-2-4.txt
+1471-2210-2-5.txt
+1471-2210-2-6.txt
+1471-2210-2-8.txt
+1471-2210-2-9.txt
+1471-2210-3-1.txt
+1471-2210-3-3.txt
+```
