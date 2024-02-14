@@ -1,7 +1,7 @@
 Peter Wang. CSE 15L. Lab Report 3.
 ---
 
-Bugs and Commands.
+On bugs and commands.
 
 ---
 **Part 1**
