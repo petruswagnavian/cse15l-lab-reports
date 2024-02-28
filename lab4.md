@@ -22,9 +22,15 @@ The command run is the `git clone` command that clones the repository specified.
 Step 6: Run the tests, demonstrating that they fail
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/f1ce44e8-2803-4849-b8a9-cf565acb24fe)
 
-Keys pressed: I typed `cd ` for the command to navigate to a directory, typed `l` and then pressed `<tab>` for the shortcut to autofill to `cd lab7/`, and then pressed `<enter>`. Then, I typed `bash `, and then `t`, and then pressed `<tab>` for the shortcut to autofill to `test.sh`.
+Keys pressed: I typed `cd ` for the command to navigate to a directory, typed `l` and then pressed `<tab>` for the shortcut to autofill to `cd lab7/`, and then pressed `<enter>`. Then, I typed `bash `, and then `t`, and then pressed `<tab>` for the shortcut to autofill to `test.sh`, and then pressed `<enter>`.
+
+The first command run is `cd lab7/` which simply navigates the working directory to the directory `lab7`. The `<enter>` keypress simply runs the command in bash. The second command is `bash test.sh`, which runs the bash file `test.sh`. the `<enter>` keypress simply runs the command in bash.
 
 Step 7: Edit the code file to fix the failing test
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/96ec80bb-61da-4600-90ae-5e0d0a03c6fa)
+
+Keys pressed: I typed `vim `, typed `Li` and then pressed `<tab>` for the shortcut to autofill to `vim ListExamples`, and then typed `.java` to finish the command: `vim ListExamples.java`. Then I pressed `<enter>`. In the text editor, I pressed `/` and then typed `index1`. Then I pressed `<enter>`, `n`, `n`, `n`, `n`, `n`, `n`, `n`, `n`, `n`. (pressed `n` 9 times). Then I pressed 'l', 'l', 'l', 'l', 'l'. (pressed 'l' 5 times). Then I pressed 'r', and then '2'. After the edit has been made, I typed ':wq`, and then pressed `<enter>`.
+
 
 Step 8: Run the tests, demonstrating that they now succeed
 
