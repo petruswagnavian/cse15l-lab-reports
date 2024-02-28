@@ -22,6 +22,8 @@ The command run is the `git clone` command that clones the repository specified.
 Step 6: Run the tests, demonstrating that they fail
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/f1ce44e8-2803-4849-b8a9-cf565acb24fe)
 
+Keys pressed: I typed `cd ` for the command to navigate to a directory, typed `l` and then pressed `<tab>` for the shortcut to autofill to `cd lab7/`, and then pressed `<enter>`. Then, I typed `bash `, and then `t`, and then pressed `<tab>` for the shortcut to autofill to `test.sh`.
+
 Step 7: Edit the code file to fix the failing test
 
 Step 8: Run the tests, demonstrating that they now succeed
