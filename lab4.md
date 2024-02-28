@@ -46,4 +46,4 @@ Step 9: Commit and push the resulting change to your Github account
 
 Keys pressed: `git add ListExamples.java` and then `<enter>`, and then `git commit -m "fixed index"` and then `<enter>`, and then `git push origin main`.
 
-The first command adds the file `ListExamples.java` in preparation for a commit. The changes made in this file are added to the commit. The second command commits the changes with a message, and the message specified is `"fixed index"`. The third command pushes the commit changes to the respository itself at `main`.
+The first command adds the file `ListExamples.java` in preparation for a commit. The changes made in this file are added to the commit. The second command commits the changes with a message, and the message specified is `"fixed index"`. The third command pushes the commit changes to the respository itself at the `main` branch.
