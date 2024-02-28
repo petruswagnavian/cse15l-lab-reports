@@ -36,6 +36,7 @@ The first command run is `vim ListExamples.java`, which opens the file `ListExam
 
 Step 8: Run the tests, demonstrating that they now succeed
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/9583029f-7910-41fc-8139-aabfc5aba6bb)
+
 Keys pressed: `<up> <up> <enter>`
 
 Two runs ago I had run the `bash test.sh` command, and so by pressing the `<up>` arrow key twice, accessing the bash command history, the same command is already typed for me. The `<enter>` keypress simply runs the command in bash. Similarly as before, this command runs the bash file `test.sh`.
