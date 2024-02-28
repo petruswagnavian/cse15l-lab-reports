@@ -60,38 +60,24 @@ This issue is fixed after the code change because a template array is created to
 **Part 2**
 
 I choose `grep`!
+`ls` is used to conveniently show what the command-line option does. 
 
-**Number 1**: `ls |grep`
+**Number 1**: `ls |grep -c '^1`
 
 source where I found this use of `grep`: https://en.wikibooks.org/wiki/Grep
 
-Example 1a: Using the command `ls |grep 2210` in the directory `/biomed` helps the user filter many files in a directory by searching for the specified key phrase `2210`. This command lists all the files in `/biomed` that have the characters `2210` in them.
+Example 1a: Using the command `ls |grep -c ^1471-2210` in the directory `/biomed` helps the user filter many files in a directory by searching for the specified key phrase `^1471-2210`. This command returns the count of all the files in `/biomed` that match the pattern of `1471-2210` at the beginning of them.
 ```
 peter@Symere MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/biomed (main)
 $ ls |grep 2210
-1471-2210-1-10.txt
-1471-2210-1-2.txt
-1471-2210-1-3.txt
-1471-2210-1-4.txt
-1471-2210-1-7.txt
-1471-2210-1-8.txt
-1471-2210-2-14.txt
-1471-2210-2-4.txt
-1471-2210-2-5.txt
-1471-2210-2-6.txt
-1471-2210-2-8.txt
-1471-2210-2-9.txt
-1471-2210-3-1.txt
-1471-2210-3-3.txt
+14
 ```
 
-Example 1b: Using the command `ls |grep 511X` in the directory `/biomed` helps the user filter many files in a directory by searching for the specified key phrase `511X`. This command lists all the files in `/biomed` that have the characters `511X` in them.
+Example 1a: Using the command `ls |grep -c ^1471-511X` in the directory `/biomed` helps the user filter many files in a directory by searching for the specified key phrase `^1471-511X`. This command returns the count of all the files in `/biomed` that match the pattern of `1471-511X` at the beginning of them.
 ```
 peter@Symere MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/biomed (main)
-$ ls |grep 511X
-1476-511X-1-2.txt
-1476-511X-2-2.txt
-1476-511X-2-3.txt
+$ ls |grep 2210
+3
 ```
 
 **Number 2**: `ls |grep -v`
