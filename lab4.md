@@ -31,6 +31,7 @@ Step 7: Edit the code file to fix the failing test
 
 Keys pressed: I typed `vim `, typed `Li` and then pressed `<tab>` for the shortcut to autofill to `vim ListExamples`, and then typed `.java` to finish the command: `vim ListExamples.java`. Then I pressed `<enter>`. In the text editor, I pressed `/` and then typed `index1`. Then I pressed `<enter>`, `n`, `n`, `n`, `n`, `n`, `n`, `n`, `n`, `n`. (pressed `n` 9 times). Then I pressed `l`, `l`, `l`, `l`, `l`. (pressed `l` 5 times). Then I pressed `r`, and then `2`. After the edit has been made, I typed `:wq`, and then pressed `<enter>`.
 
+The first command run is `vim ListExamples.java`, which opens the file `ListExamples.java` in the text editor `vim`. This allows the user to edit the file from the command line. The typing of `/index1` is simply searching for all instances of where `index1` appears in the file. Pressing `n` nines times just goes through the instances, and I stop once the cursor jumps to the `index1` I want to edit. Pressing `l` five times moves the cursor over the `1` in `index1`. Pressing `r` and then `2` just replaces the `1` with `2`, so now the text was edited to `index2`. Typing `:wq` is the command to exit the text editor while also saving. Pressing the `<enter>` key runs the command and in this case closes the text edtior.
 
 Step 8: Run the tests, demonstrating that they now succeed
 
