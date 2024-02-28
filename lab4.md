@@ -28,8 +28,7 @@ The first command run is `cd lab7/` which simply navigates the working directory
 
 Step 7: Edit the code file to fix the failing test
 ![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/96ec80bb-61da-4600-90ae-5e0d0a03c6fa)
-![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/d6497eee-e937-4030-b875-d2a126b6f95e)
-
+![image](https://github.com/petruswagnavian/cse15l-lab-reports/assets/141669683/751a72bc-578a-4562-84b8-c5d1e9dfed96)
 
 Keys pressed: I typed `vim `, typed `Li` and then pressed `<tab>` for the shortcut to autofill to `vim ListExamples`, and then typed `.java` to finish the command: `vim ListExamples.java`. Then I pressed `<enter>`. In the text editor, I pressed `/` and then typed `index1`. Then I pressed `<enter>`, `n`, `n`, `n`, `n`, `n`, `n`, `n`, `n`, `n`. (pressed `n` 9 times). Then I pressed `l`, `l`, `l`, `l`, `l`. (pressed `l` 5 times). Then I pressed `r`, and then `2`. After the edit has been made, I typed `:wq`, and then pressed `<enter>`.
 
